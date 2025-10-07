@@ -1,5 +1,8 @@
 package com.example.ideaspark.data.remote
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class ActivityResponse(
     val activity: String,
     val accessibility: String,

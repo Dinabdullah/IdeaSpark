@@ -52,15 +52,11 @@ fun HomeScreen(modifier: Modifier = Modifier) {
                     Text(categories[index])
                 }
             }
-
             items(activities) { activity ->
                 Text(text = activity.activity)
             }
-
+        }
         }
     }
-}
-
-
 
 
